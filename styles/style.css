@@ -1,0 +1,108 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.bg-FOS {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  margin-top: -69px;
+  text-align: center;
+  line-height: 450px;
+}
+
+.bg-FOS p {
+  color: white;
+  font-size: 65px;
+  font-family: "Open Sans";
+  position: absolute;
+  top: 5%;
+  left: 28%;
+}
+
+.bg-FOS img {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.intro-div {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.intro-div p {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: "Raleway";
+  font-size: 20px;
+}
+
+.recipe-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.recipe-info img {
+  height: 75px;
+}
+
+hr {
+  width: 75%;
+  height: 0.5px;
+  background-color: #414b4b;
+  margin-bottom: 25px;
+}
+
+.ingredients,
+.directions {
+  margin-top: 35px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 35px;
+  font-family: "Raleway";
+  font-size: 20px;
+}
+
+.ingredients ul,
+.directions ul {
+  margin: 0;
+}
+
+.ingredients ul.dashed,
+.directions ul.dashed {
+  list-style-type: none;
+}
+
+.ingredients ul.dashed > li,
+.directions ul.dashed > li {
+  text-indent: -5px;
+}
+
+.ingredients ul.dashed > li:before,
+.directions ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
+}
+
+.ingredients ol,
+.directions ol {
+  counter-reset: list;
+}
+
+.ingredients ol > li,
+.directions ol > li {
+  list-style: none;
+}
+
+.ingredients ol > li:before,
+.directions ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+/*# sourceMappingURL=style.css.map */
